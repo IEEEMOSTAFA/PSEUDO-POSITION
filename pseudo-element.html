@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3::after{
+            content: '.pdg';
+            color: red;
+            font-size: 10px;
+            background-color: yellow;
+        }
+        h3::before{
+            content: 'start: ';
+            color: red;
+            font-size: 10px;
+            background-color: yellow;
+        }
+        P::first-letter{
+             font-size: 2em;
+        }
+        p::first-line{
+            background-color: aquamarine;
+        }
+        ::selection{
+            background-color: yellow;
+        }
+        input::placeholder{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- h3*3{heading -$} -->
+    <h3>heading -1</h3>
+    <h3>heading -2</h3>
+    <h3>heading -3</h3>
+    <!-- p*3>LOREM20 -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem commodi perferendis, eius praesentium quae adipisci provident dolorum obcaecati et expedita.</p>
+    <p>Sed deleniti odio blanditiis totam, dignissimos quibusdam culpa, iste consequatur voluptatibus numquam adipisci fugiat doloribus nulla, eligendi mollitia ab nemo!</p>
+    <p>Quibusdam earum expedita eum incidunt provident dolores debitis, corrupti aliquid natus eius fuga necessitatibus placeat? Officia adipisci consequuntur omnis aliquam.</p>
+</body>
+</html>
